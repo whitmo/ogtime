@@ -1,0 +1,127 @@
+body {
+    font-size: 90%;
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    padding: 6px;
+}
+
+#results {
+    float: left;
+    width: 60%;
+}
+
+#search {
+    float: left;
+    width: 40%;
+}
+
+#edit {
+    clear: left;
+    padding-top: 12px;
+}
+
+img {
+    border: 0;
+    padding: 0 3px;
+}
+
+dl {
+    background-color: #eee;
+    border: 1px solid #ddd;
+    padding: 3px;
+    margin: 0;
+}
+
+dt {
+    font-weight: bold;
+    margin: 6px 0 3px 3px;
+}
+
+dd {
+    margin-bottom: 3px;
+    margin-left: 18px;
+}
+
+ul {
+    margin: 0;
+}
+
+.action {
+    color: #888;
+    font-style: italic;
+}
+
+.nav {
+    padding: 0 3px;
+}
+
+#entries {
+    background-color: #eee;
+    padding-left: 0;
+    margin-left: 0;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+}
+
+#entries li {
+    list-style: none;
+    margin: 0;
+    padding: 3px;
+    border-top: 1px solid #ddd;
+}
+
+#entries li:hover, #entries li:hover a {
+    background-color: #aaa;
+    color: white;
+}
+
+#entries li a {
+    display: block;
+    text-decoration: none;
+    width: 100%;
+}
+
+p.header, p.header a {
+    background-color: #888;
+    color: white;
+    margin: 0;
+    padding: 3px;
+}
+
+p.footer, p.footer a {
+    text-align: center;
+    background-color: #888;
+    color: white;
+    margin: 0;
+    padding: 3px;
+}
+
+#header {
+    background-color: #aaa;
+    border: 1px solid #888;
+    color: white;
+    padding: 3px 18px;
+}
+
+#header h1 {
+    font-size: 120%;
+    font-weight: normal;
+}
+
+dt > a img, dd > a img {
+    filter:alpha(opacity=25); 
+    -moz-opacity: 0.25; 
+    opacity: 0.25;
+}
+
+dt:hover > a img, dd:hover > a img {
+    filter:alpha(opacity=100); 
+    -moz-opacity: 1.0; 
+    opacity: 1.0;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+}

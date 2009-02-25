@@ -1,0 +1,30 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" 
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+    <head>
+        <script type="text/javascript" src="js/jquery-latest.js"></script>
+        <script type="text/javascript" src="js/json2.js"></script>
+        <script type="text/javascript" src="js/rison.js"></script>
+        <script type="text/javascript" src="js/jsonstore.js"></script>
+        <script type="text/javascript" src="js/admin.js"></script>
+        <script type="text/javascript">
+            JSONSTORE = 'http://localhost:8080/';
+            NO_ENTRIES = 5;
+        </script>
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+    </head>
+    <body>
+        <div id="header">
+            <h1>JSONStore @ http://localhost:8080/</h1>
+        </div>
+        <div id="results">
+            <p class="header"><a href="#" class="action" id="new">Add a new document</a></p>
+            <ul id="entries"></ul>
+        </div>
+        <div id="search">
+            <p class="header"><a href="#" class="action" id="filter">Filter</a></p>
+            <div id="key"></div>
+        </div>
+        <div id="edit"></div>
+    </body>
+</html>
